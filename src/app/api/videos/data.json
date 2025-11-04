@@ -1,0 +1,122 @@
+[
+  {
+    "id": "v1",
+    "title": "React Query Basics",
+    "author": "Alice",
+    "durationSec": 240,
+    "publishedAt": "2025-10-30T10:00:00Z",
+    "thumbnail": "https://picsum.photos/seed/1/800/450"
+  },
+  {
+    "id": "v2",
+    "title": "Next.js App Router Explained",
+    "author": "Bob",
+    "durationSec": 980,
+    "publishedAt": "2025-09-25T08:30:00Z",
+    "thumbnail": "https://picsum.photos/seed/2/800/450"
+  },
+  {
+    "id": "v3",
+    "title": "TypeScript Tips and Tricks",
+    "author": "Carol",
+    "durationSec": 340,
+    "publishedAt": "2025-10-10T12:45:00Z",
+    "thumbnail": "https://picsum.photos/seed/3/800/450"
+  },
+  {
+    "id": "v4",
+    "title": "Building Accessible UI in React",
+    "author": "Dave",
+    "durationSec": 720,
+    "publishedAt": "2025-08-12T11:15:00Z",
+    "thumbnail": "https://picsum.photos/seed/4/800/450"
+  },
+  {
+    "id": "v5",
+    "title": "TailwindCSS Layout Masterclass",
+    "author": "Eve",
+    "durationSec": 1280,
+    "publishedAt": "2025-09-02T14:00:00Z",
+    "thumbnail": "https://picsum.photos/seed/5/800/450"
+  },
+  {
+    "id": "v6",
+    "title": "Optimizing Next.js Performance",
+    "author": "Frank",
+    "durationSec": 2700,
+    "publishedAt": "2025-07-29T09:40:00Z",
+    "thumbnail": "https://picsum.photos/seed/6/800/450"
+  },
+  {
+    "id": "v7",
+    "title": "React State Management Showdown",
+    "author": "Grace",
+    "durationSec": 1240,
+    "publishedAt": "2025-09-18T16:10:00Z",
+    "thumbnail": "https://picsum.photos/seed/7/800/450"
+  },
+  {
+    "id": "v8",
+    "title": "Server Actions Deep Dive",
+    "author": "Heidi",
+    "durationSec": 480,
+    "publishedAt": "2025-10-20T19:30:00Z",
+    "thumbnail": "https://picsum.photos/seed/8/800/450"
+  },
+  {
+    "id": "v9",
+    "title": "Design Systems 101",
+    "author": "Ivan",
+    "durationSec": 360,
+    "publishedAt": "2025-08-08T07:50:00Z",
+    "thumbnail": "https://picsum.photos/seed/9/800/450"
+  },
+  {
+    "id": "v10",
+    "title": "Building Forms with Zod and React Hook Form",
+    "author": "Judy",
+    "durationSec": 930,
+    "publishedAt": "2025-09-05T18:00:00Z",
+    "thumbnail": "https://picsum.photos/seed/10/800/450"
+  },
+  {
+    "id": "v11",
+    "title": "Intro to TanStack Query v5",
+    "author": "Kevin",
+    "durationSec": 290,
+    "publishedAt": "2025-11-01T09:15:00Z",
+    "thumbnail": "https://picsum.photos/seed/11/800/450"
+  },
+  {
+    "id": "v12",
+    "title": "Advanced Next.js Routing",
+    "author": "Laura",
+    "durationSec": 1880,
+    "publishedAt": "2025-09-10T13:20:00Z",
+    "thumbnail": "https://picsum.photos/seed/12/800/450"
+  },
+  {
+    "id": "v13",
+    "title": "Testing React Components with Vitest",
+    "author": "Mike",
+    "durationSec": 430,
+    "publishedAt": "2025-08-25T15:45:00Z",
+    "thumbnail": "https://picsum.photos/seed/13/800/450"
+  },
+  {
+    "id": "v14",
+    "title": "Building Modern Dashboards",
+    "author": "Nina",
+    "durationSec": 3600,
+    "publishedAt": "2025-07-15T11:25:00Z",
+    "thumbnail": "https://picsum.photos/seed/14/800/450"
+  },
+  {
+    "id": "v15",
+    "title": "React Animations with Framer Motion",
+    "author": "Oscar",
+    "durationSec": 260,
+    "publishedAt": "2025-10-05T22:00:00Z",
+    "thumbnail": "https://picsum.photos/seed/15/800/450"
+  }
+]
