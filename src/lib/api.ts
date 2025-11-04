@@ -1,6 +1,6 @@
 import { Video } from './types';
 
-export async function fetchVideos(signal?: AbortSignal): Promise<Video[]> {
+export async function fetchVideos(): Promise<Video[]> {
   // We get an absolute URL suitable for both localhost and production
   const baseUrl = 'http://localhost:3000';
 

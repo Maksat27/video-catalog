@@ -1,18 +1,22 @@
 import { fetchVideos } from '@/lib/api';
+import { dehydrate, QueryClient } from '@tanstack/react-query';
+import Providers from './providers';
+import Catalog from '@/components/Catalog';
 
 export default async function Home() {
-  const videos = await fetchVideos();
-  console.log(videos);
+  const queryClient = new QueryClient();
+  await queryClient.prefetchQuery({
+    queryKey: ['videos'],
+    queryFn: fetchVideos,
+  });
+
+  const state = dehydrate(queryClient);
   return (
-    <div>
-      {videos.map((video) => {
-        const { id, title, author } = video;
-        return (
-          <ul>
-            <li key={id}>{title}</li>
-          </ul>
-        );
-      })}
-    </div>
+    <Providers state={state}>
+      <main>
+        <h1 className="text-2xl font-bold p-6">Video Catalog</h1>
+        <Catalog />
+      </main>
+    </Providers>
   );
 }
