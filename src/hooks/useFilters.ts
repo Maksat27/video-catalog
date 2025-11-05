@@ -19,13 +19,11 @@ export function useFilters(videos: Video[]) {
     (params.get('d') as any) ?? undefined,
   );
 
-  // sync -> URL (replace, без перезагрузки)
   useEffect(() => {
     const p = new URLSearchParams(params);
     q ? p.set('q', q) : p.delete('q');
     bucket ? p.set('d', bucket) : p.delete('d');
     router.replace('?' + p.toString());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q, bucket]);
 
   const filtered = useMemo(() => {
