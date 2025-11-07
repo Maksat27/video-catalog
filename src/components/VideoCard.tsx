@@ -24,7 +24,7 @@ export default function VideoCard({ v }: { v: Video }) {
         <p className="text-xs text-slate-600">{v.author}</p>
         <div className="mt-2 flex items-center justify-between text-xs text-slate-700">
           <span>{formatDuration(v.durationSec)}</span>
-          <time dateTime={v.publishedAt}>{new Date(v.publishedAt).toLocaleDateString()}</time>
+          <time dateTime={v.publishedAt}>{new Date(v.publishedAt).toISOString().slice(0, 10)}</time>
         </div>
       </div>
     </Link>
