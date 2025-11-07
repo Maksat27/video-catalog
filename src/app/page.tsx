@@ -14,7 +14,6 @@ export default async function Home() {
   return (
     <Providers state={state}>
       <main>
-        <h1 className="text-2xl font-bold p-6">Video Catalog</h1>
         <Catalog />
       </main>
     </Providers>

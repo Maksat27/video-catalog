@@ -21,7 +21,7 @@ export default function Catalog() {
 
   return (
     <main className="mx-auto max-w-6xl p-4">
-      <h1 className="mb-4 text-2xl font-semibold">Каталог видео</h1>
+      <h1 className="mb-4 text-2xl font-semibold">Video Catalog</h1>
 
       <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <SearchBar value={q} onChange={setQ} />

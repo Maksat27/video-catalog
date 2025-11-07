@@ -9,13 +9,13 @@ export default function DurationFilter({
   onChange: (v?: DurationBucket) => void;
 }) {
   const items: { key?: DurationBucket; label: string }[] = [
-    { key: undefined, label: 'Все' },
-    { key: 'short', label: '< 5 мин' },
-    { key: 'medium', label: '5–20 мин' },
-    { key: 'long', label: '> 20 мин' },
+    { key: undefined, label: 'All' },
+    { key: 'short', label: '< 5 min' },
+    { key: 'medium', label: '5–20 min' },
+    { key: 'long', label: '> 20 min' },
   ];
   return (
-    <div role="radiogroup" aria-label="Фильтр длительности" className="flex gap-2">
+    <div role="radiogroup" aria-label="Duration filter" className="flex gap-2">
       {items.map((it) => (
         <button
           key={String(it.key)}
